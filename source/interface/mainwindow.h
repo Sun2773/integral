@@ -1,8 +1,9 @@
-#ifndef MAINWINDOW_H
-#define MAINWINDOW_H
+#pragma once
 
 #include <QMainWindow>
 #include <QPushButton>
+#include <QDebug>
+#include "beep.h"
 
 class MainWindow : public QMainWindow {
     Q_OBJECT
@@ -13,6 +14,12 @@ class MainWindow : public QMainWindow {
 
    private:
     /*  */
-    QPushButton* pushBUtton;
+    QPushButton* pushButton;
+    Beep* beep;
+    /* 信号 */
+   signals:
+    void pushButtonSignal();
+    /* 槽 */
+   public slots:
+    void pushButtonClicked();
 };
-#endif   // MAINWINDOW_H

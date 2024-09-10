@@ -1,7 +1,23 @@
 {
     "C_Cpp.default.compilerPath": "/opt/fsl-imx-x11/4.1.15-2.1.0/sysroots/x86_64-pokysdk-linux/usr/bin/arm-poky-linux-gnueabi/arm-poky-linux-gnueabi-g++",
     "files.associations": {
-        "qpushbutton": "cpp"
+        "qpushbutton": "cpp",
+        "qdebug": "cpp",
+        "qmutex": "cpp",
+        "fstream": "cpp",
+        "tuple": "cpp",
+        "array": "cpp",
+        "string": "cpp",
+        "initializer_list": "cpp",
+        "utility": "cpp",
+        "condition_variable": "c",
+        "mutex": "c",
+        "time.h": "c",
+        "unistd.h": "c",
+        "socket.h": "c",
+        "termios.h": "c",
+        "if.h": "c",
+        "in.h": "c"
     },
     "cmake.ignoreCMakeListsMissing": true
 }

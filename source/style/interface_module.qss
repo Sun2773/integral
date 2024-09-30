@@ -1,0 +1,56 @@
+QFrame#interface_module {
+    /* background: transparent; */
+    background-color: rgba(240, 255, 255, 100%);
+    border: none;
+    border-radius: 20px;
+}
+
+QPushButton#btn_add_module {
+    background: transparent;
+    /* border-image: url(:/picture/btn_add_module.png); */
+    background-repeat: no-repeat;
+    background-position: center;
+    outline: none;
+}
+
+QPushButton#btn_left_page {
+    background: transparent;
+    /* border-image: url(:/picture/btn_left_page_valid.png); */
+    background-repeat: no-repeat;
+    background-position: center;
+    outline: none;
+}
+
+QPushButton#btn_right_page {
+    background: transparent;
+    /* border-image: url(:/picture/btn_right_page_invalid.png); */
+    background-repeat: no-repeat;
+    background-position: center;
+    outline: none;
+}
+
+/* QDialog#module_add_popup { */
+/* background: transparent; */
+/* background-color: rgba(240, 0, 240, 70%); */
+/* border: none; */
+/* border-radius: 30px; */
+/* } */
+
+QFrame#module_add_popup_frame {
+    background-color: rgba(180, 255, 255, 80%);
+    border: none;
+    border-top-left-radius: 0px;
+    border-top-right-radius: 0px;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+}
+
+QLabel#module_add_popup_title {
+    background: transparent;
+    background-color: rgba(180, 230, 230, 80%);
+    border: none;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    border-bottom-left-radius: 0px;
+    border-bottom-right-radius: 0px;
+}

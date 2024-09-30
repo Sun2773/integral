@@ -1,0 +1,33 @@
+MainWindow {
+    background-color: rgba(230, 230, 230, 100%);
+    /* background-image: url(:/picture/background.png); */
+    background-repeat: no-repeat;
+    background-position: center;
+}
+
+QFrame#title {
+    /* background: transparent; */
+    background-color: rgba(230, 240, 240, 100%);
+    border: none;
+}
+
+QFrame#sidebar {
+    /* background: transparent; */
+    background-color: rgba(240, 240, 230, 100%);
+    border: none;
+}
+
+QPushButton#setting_button {
+    border-image: url(:/picture/setting.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    outline: none;
+}
+
+
+QPushButton#home_button {
+    border-image: url(:/picture/home.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    outline: none;
+}

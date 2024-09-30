@@ -1,0 +1,17 @@
+<RCC>
+    <qresource prefix="/">
+        <file>picture/background.png</file>
+        <file>picture/setting.png</file>
+        <file>picture/home.png</file>
+        <file>style/framework.qss</file>
+        <file>style/interface_main.qss</file>
+        <file>style/interface_setting.qss</file>
+        <file>style/interface_module.qss</file>
+        <file>picture/btn_add_module.png</file>
+        <file>picture/btn_left_page_invalid.png</file>
+        <file>picture/btn_left_page_valid.png</file>
+        <file>picture/btn_right_page_invalid.png</file>
+        <file>picture/btn_right_page_valid.png</file>
+        <file>picture/btn_module.png</file>
+    </qresource>
+</RCC>

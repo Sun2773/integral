@@ -1,4 +1,4 @@
-QT       += core gui serialbus
+QT       += core gui serialbus virtualkeyboard
 
 greaterThan(QT_MAJOR_VERSION, 4): QT += widgets
 
@@ -23,16 +23,27 @@ INCLUDEPATH += \
 
 SOURCES += \
     drive/canbus.cpp \
+    drive/module.cpp \
+    interface/interface_main.cpp \
+    interface/interface_module.cpp \
+    interface/interface_setting.cpp \
     main.cpp \
     interface/mainwindow.cpp \
-    drive/beep.cpp\
-    drive/modbus_rtu_can_port.c
+    drive/beep.cpp \
+    drive/modbus_rtu_can_port.c \
+    drive/slave.cpp
+
 
 HEADERS += \
     drive/canbus.h \
+    drive/module.h \
+    interface/interface_main.h \
+    interface/interface_module.h \
+    interface/interface_setting.h \
     interface/mainwindow.h \
-    drive/beep.h\
-    drive/modbus_rtu_can_port.h
+    drive/beep.h \
+    drive/modbus_rtu_can_port.h \
+    drive/slave.h
 
 # Default rules for deployment.
 qnx: target.path = /tmp/$${TARGET}/bin
@@ -43,4 +54,10 @@ unix:!macx: LIBS += -L$$PWD/../lib/ -lmodbus
 
 INCLUDEPATH += $$PWD/../include/modbus
 DEPENDPATH += $$PWD/../include
+
+RESOURCES += \
+    res.qrc
+
+FORMS +=
+
 

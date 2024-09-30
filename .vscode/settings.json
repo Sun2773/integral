@@ -17,7 +17,23 @@
         "socket.h": "c",
         "termios.h": "c",
         "if.h": "c",
-        "in.h": "c"
+        "in.h": "c",
+        "qfile": "cpp",
+        "*.tcc": "cpp",
+        "deque": "cpp",
+        "list": "cpp",
+        "vector": "cpp",
+        "qscreen": "cpp",
+        "future": "cpp",
+        "chrono": "cpp",
+        "qtextblock": "cpp",
+        "qmainwindow": "cpp",
+        "qvboxlayout": "cpp",
+        "qgridlayout": "cpp",
+        "qthread": "cpp",
+        "limits": "cpp",
+        "type_traits": "cpp",
+        "qapplication": "cpp"
     },
     "cmake.ignoreCMakeListsMissing": true
 }
